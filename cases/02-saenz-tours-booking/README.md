@@ -43,6 +43,8 @@ Give travellers one clear place to see prices and book, collect everything the d
 - Custom domain live over HTTPS, with DNS records set up by me.
 - Delivered in 4 working days; the calendar time was driven by client content and meetings.
 
-**Stack:** React, TypeScript · tRPC with schema validation · MySQL · Docker on Railway
+**Stack:** React, TypeScript · tRPC with schema validation · MySQL · Docker on Railway · DNS on Cloudflare
+
+**Built with:** Kimi multi-agent as AI build partner, under my direction.
 
 <sub>Shared with the client's permission.</sub>

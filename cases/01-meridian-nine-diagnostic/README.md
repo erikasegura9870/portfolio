@@ -63,3 +63,5 @@ Create a free entry point that gives the prospect real value in minutes, qualifi
 WhatsApp booking agent in Dify (in progress) and online payment (test mode first), then conversion tracking from diagnostic to paid call.
 
 **Stack:** Cloudflare Workers, KV and cron · JavaScript · Brevo (CRM, transactional email) · pdf-lib · GitHub
+
+**Built with:** Claude as AI build partner, under my direction.

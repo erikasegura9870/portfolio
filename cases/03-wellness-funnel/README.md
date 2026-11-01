@@ -47,3 +47,5 @@ Segment visitors in seconds, deliver a free resource matched to their state, and
 - Same infrastructure and CRM as Case 01, so leads from both brands live in one system.
 
 **Stack:** HTML, CSS, JavaScript · Cloudflare Workers · Brevo (lists, attributes, automations) · Hotmart
+
+**Built with:** Claude as AI build partner; the first version of the quiz ran through an n8n webhook.

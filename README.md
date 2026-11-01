@@ -28,7 +28,7 @@ I design how a business attracts, serves, charges and follows up with its custom
 1. **Start from the business.** The offer, the customer journey and the metric come before any tool.
 2. **Decide in writing.** Options, trade-offs and sources are documented; facts, estimates and proposals are labelled.
 3. **Deliver safely.** Version control, automated tests, preview environments and feature switches; nothing irreversible ships without sign-off.
-4. **Use AI as a force multiplier.** I direct AI pairs (Claude, Kimi) and automation tools (n8n) for research and build: I own the requirements, decisions, review and testing.
+4. **Use AI as a force multiplier.** I direct AI agents (Claude, Kimi multi-agent) and automation tools (n8n) for research and build: I own the requirements, decisions, review and testing.
 
 ## Capabilities
 
@@ -37,7 +37,7 @@ I design how a business attracts, serves, charges and follows up with its custom
 | Offer ladders and pricing | Cloudflare Workers, Railway, Node.js | CRM design (Brevo) |
 | B2B and B2C funnels | React, TypeScript | Lifecycle email automation, n8n |
 | Customer segmentation | MySQL, serverless storage | AI agents: Claude, Kimi, Dify (WhatsApp) |
-| Privacy and consent (Mexico, 2025 law) | Hosting, DNS and migrations | Reporting and CSV pipelines |
+| Privacy and consent (Mexico, 2025 law) | Hosting, DNS and migrations (Cloudflare, Railway) | Reporting and CSV pipelines |
 
 ## Contact
 
