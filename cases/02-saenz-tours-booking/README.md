@@ -30,16 +30,7 @@ Give travellers one clear place to see prices and book, collect everything the d
 |---|---|
 | ![Rates](img/st-rates.jpg) | ![Booking](img/st-booking.jpg) |
 
-```mermaid
-flowchart LR
-  T[Traveller] --> S[Service catalogue]
-  S -->|prefilled| F[Booking form]
-  F -->|validated| D[(Customer database)]
-  O[Owner] --> A[Admin panel]
-  A --> D
-  A -->|CSV| X[Spreadsheet]
-  A -->|one tap| W[WhatsApp to customer]
-```
+![Flow](img/flow.png)
 
 - **Complete trip data on first contact:** passengers, flight, luggage, surfboards, accommodation, notes.
 - **Consent done right:** booking consent required; marketing opt-in separate and optional.

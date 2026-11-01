@@ -26,16 +26,7 @@ Create a free entry point that gives the prospect real value in minutes, qualifi
 
 ## Solution
 
-```mermaid
-flowchart LR
-  A[Lead form] --> B[Private link by email]
-  B --> C[6-screen questionnaire]
-  C --> D[Server-side scoring]
-  D --> E[Result + 4-page PDF]
-  E --> F[WhatsApp: book and pay]
-  D -.-> G[(CRM: 15 attributes)]
-  H[Hourly job] -.->|one reminder at 48 h| B
-```
+![Flow](img/flow.png)
 
 - **Scoring model:** 5 areas scored 0–100; the 2 lowest are the bottlenecks; each bottleneck maps to a service in the offer ladder.
 - **Revenue at risk:** an estimate of monthly sales lost to slow replies and hours spent on repetitive tasks, built from optional ranges and clearly labelled as an estimate.

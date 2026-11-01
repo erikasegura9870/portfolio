@@ -28,14 +28,7 @@ Segment visitors in seconds, deliver a free resource matched to their state, and
 
 ## Solution
 
-```mermaid
-flowchart LR
-  Q[7-question quiz] --> C[(CRM: state + profile)]
-  C --> E[Email with matching kit]
-  E --> S[Sales page]
-  S --> P[Checkout USD 17]
-  P --> T[Thank-you page]
-```
+![Flow](img/flow.png)
 
 ![Visual kit](img/kit-pdf.png)
 
