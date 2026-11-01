@@ -22,7 +22,7 @@ Give travellers one clear place to see prices and book, collect everything the d
 2. **Information architecture:** 22 services in 3 categories (airport transfers, day tours, international), transparent "from" prices and a 12% round-trip rule.
 3. **Booking flow:** form prefilled from the service chosen; validation on the server.
 4. **Operations:** admin view with export to spreadsheet, and one-tap WhatsApp to each customer.
-5. **Delivery:** deployment, handover and content updates within the client's timeline.
+5. **Delivery:** Docker deployment on Railway, custom domain and DNS on Cloudflare configured hands-on, handover and content updates within the client's timeline.
 
 ## Solution
 
@@ -40,6 +40,7 @@ Give travellers one clear place to see prices and book, collect everything the d
 
 - One booking channel with structured data instead of free-form chats.
 - Customer database owned by the client, exportable at any time.
+- Custom domain live over HTTPS, with DNS records set up by me.
 - Delivered in 4 working days; the calendar time was driven by client content and meetings.
 
 **Stack:** React, TypeScript · tRPC with schema validation · MySQL · Docker on Railway

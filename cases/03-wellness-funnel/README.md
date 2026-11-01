@@ -32,6 +32,14 @@ Segment visitors in seconds, deliver a free resource matched to their state, and
 
 ![Visual kit](img/kit-pdf.png)
 
+## How the CRM segmentation works (Brevo)
+
+1. **One list for the funnel.** Every quiz submission goes to the brand's entry list.
+2. **Upsert, not duplicates.** A server-side endpoint creates or updates the contact by email, so retaking the quiz updates the profile instead of creating a second record.
+3. **Custom attributes.** `PERFIL` stores the state (Alert, Exhausted, Blocked, Recharge) and `ND` stores the self-reported profile; both are visible on the contact record.
+4. **Branching automation.** One automation starts when the contact joins the list and splits on `PERFIL`: Alert, Exhausted and Blocked each get their own email and kit; everyone else gets Recharge.
+5. **Trusted sender.** Emails go out from a verified brand address on the authenticated domain (SPF, DKIM, DMARC).
+
 ## Outcomes
 
 - Full funnel live: quiz → segmented list → automated delivery → upsell → checkout.

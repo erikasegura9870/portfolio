@@ -30,6 +30,17 @@ Create a free entry point that gives the prospect real value in minutes, qualifi
 
 - **Scoring model:** 5 areas scored 0–100; the 2 lowest are the bottlenecks; each bottleneck maps to a service in the offer ladder.
 - **Revenue at risk:** an estimate of monthly sales lost to slow replies and hours spent on repetitive tasks, built from optional ranges and clearly labelled as an estimate.
+- **CRM segmentation (Brevo):** the backend creates every attribute it needs, typed (text, number, date), and writes the full lifecycle to the contact:
+
+  | Attribute group | Fields | Used for |
+  |---|---|---|
+  | Lead profile | name, company, WhatsApp, business type, language, source | Routing and language of every email |
+  | Status | DX_ESTADO: sent → started → completed | Reminder logic and follow-up lists |
+  | Result | 5 area scores, 2 bottlenecks, recommended offer | Segments by bottleneck and offer |
+  | Value | revenue at risk, hours per month, PDF link, date | Prioritising who to call first |
+  | Consent | marketing opt-in (yes/no) and date | Only opted-in contacts enter campaigns |
+
+  This makes segments such as *"completed, bottleneck = You respond, opted in"* possible without exporting data.
 - **Privacy by design:** no personal data in URLs; WhatsApp receives only a short code.
 - **Zero marginal cost:** the PDF is generated on the prospect's device; the stack runs on free tiers that allow commercial use.
 
